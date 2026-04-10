@@ -3,7 +3,7 @@
 Selamat datang di tahap seleksi Live Coding! Tes ini dirancang untuk menguji logika, kemampuan pemecahan masalah, kreativitas ide, dan cara Anda mempresentasikan solusi teknis.
 
 ## 📋 Ketentuan Tes
-Pada sesi ini, Anda dibebaskan untuk menentukan **ide atau tujuan aplikasi** yang akan dibuat sesuai dengan studi khasus di ruanglingkup masyrakat. Namun, aplikasi wajib memenuhi kriteria di bawah ini:
+Pada sesi ini, Anda dibebaskan untuk menentukan **ide atau tujuan aplikasi** yang akan dibuat sesuai dengan studi khasus di ruang lingkup masyrakat. Namun, aplikasi wajib memenuhi kriteria di bawah ini:
 
 ### 1. Kriteria Ide & Problem Solving
 * **Identifikasi Masalah:** Aplikasi harus mampu menyelesaikan satu masalah sederhana.
