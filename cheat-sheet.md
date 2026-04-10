@@ -1,7 +1,3 @@
-2.  **Struktur Heading**: Semua nomor (1-6) menggunakan format `###` agar ukurannya seragam.
-3.  **Bullet Points**: Penjelasan di bawah judul sudah menggunakan simbol `*` agar tampilannya rapi seperti nomor 1 pada gambar Anda.
-4.  **Operator `:=`**: Sudah diterapkan pada bagian Aritmatika agar kode Go-nya valid.
-
 # 📘 Panduan Cepat Golang (Cheat Sheet)
 *Khusus untuk peserta seleksi Divisi Akademik*
 
@@ -18,7 +14,16 @@ Digunakan untuk berinteraksi dengan pengguna di dalam aplikasi.
 ```go
 fmt.Println("Masukkan Nama Anda:") // Menampilkan pesan ke layar
 fmt.Scan(&namaVariabel)            // Menunggu input dan menyimpannya ke variabel
+```
 
+---
+
+### 2. Variabel
+Variabel digunakan untuk menyimpan data sementara dalam program.
+* `var namaVariabel tipeData` : Mendeklarasikan variabel dengan tipe data tertentu.
+
+**Contoh Kode & Penjelasan:**
+```go
 // Menyiapkan kotak bernama 'nama' khusus untuk menyimpan tulisan/teks
 var nama string     
 
@@ -27,7 +32,16 @@ var umur int
 
 // Menyiapkan kotak bernama 'harga' khusus untuk menyimpan angka desimal
 var harga float64
+```
 
+---
+
+### 3. Kondisi (If-Else)
+Kondisi digunakan untuk membuat keputusan berdasarkan nilai tertentu.
+* `if kondisi { ... } else { ... }` : Mengecek kondisi dan menjalankan blok kode sesuai.
+
+**Contoh Kode & Penjelasan:**
+```go
 // Memeriksa kondisi: "Apakah total belanja lebih dari 100.000?"
 if totalBelanja > 100000 {
     // Jalankan kode di dalam kurung ini JIKA KONDISI BENAR
@@ -36,7 +50,16 @@ if totalBelanja > 100000 {
     // Jalankan kode di dalam kurung ini JIKA KONDISI SALAH
     fmt.Println("Maaf, total belanja belum cukup untuk diskon")
 }
+```
 
+---
+
+### 4. Loop (For)
+Loop digunakan untuk mengulang eksekusi kode sampai kondisi tertentu terpenuhi.
+* `for kondisi { ... }` : Mengulang selama kondisi benar.
+
+**Contoh Kode & Penjelasan:**
+```go
 // Memeriksa kondisi: "Selama saldo masih kurang dari target, teruslah mengulang"
 for saldo < target {
     // Meminta input setoran secara berulang
@@ -47,9 +70,16 @@ for saldo < target {
     saldo = saldo + setoran
 }
 // Jika saldo sudah mencapai target, program otomatis berhenti mengulang
+```
 
+---
 
+### 5. Fungsi
+Fungsi digunakan untuk mengelompokkan kode yang dapat dipanggil berulang kali.
+* `func namaFungsi(parameter) returnType { ... }` : Mendefinisikan fungsi.
 
+**Contoh Kode & Penjelasan:**
+```go
 // Membuat mesin bernama 'hitungSisa' yang butuh dua bahan (target & skrg)
 func hitungSisa(target float64, skrg float64) float64 {
     // Jalankan proses pengurangan di dalam mesin untuk cari selisih
@@ -60,9 +90,19 @@ func hitungSisa(target float64, skrg float64) float64 {
 }
 
 // Cara pakai: sisa := hitungSisa(1000, 400)
+```
 
+---
 
+### 6. Operator Aritmatika
+Operator digunakan untuk melakukan operasi matematika.
+* `+` : Penjumlahan
+* `-` : Pengurangan
+* `*` : Perkalian
+* `/` : Pembagian
 
+**Contoh Kode & Penjelasan:**
+```go
 // 1. TAMBAH (+): Digunakan untuk akumulasi atau menambah nilai
 total := saldoLama + setoranBaru
 
@@ -74,5 +114,6 @@ potongan := hargaAwal * 0.1
 
 // 4. BAGI (/): Digunakan untuk membagi nilai menjadi beberapa bagian
 rataRata := totalNilai / jumlahPeserta
+```
 
 
