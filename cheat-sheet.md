@@ -1,3 +1,7 @@
+2.  **Heading (###):** Sekarang semua nomor menggunakan tanda pagar tiga kali agar ukurannya seragam.
+3.  **Bullet Points:** Saya tambahkan penjelasan singkat di bawah judul (seperti nomor 1 kamu) agar peserta lebih paham fungsinya secara cepat.
+4.  **Operator `:=` :** Pada nomor 6, saya gunakan `:=` agar kodenya benar secara aturan bahasa Go (Golang).
+
 # 📘 Panduan Cepat Golang (Cheat Sheet)
 *Khusus untuk peserta seleksi Divisi Akademik*
 
